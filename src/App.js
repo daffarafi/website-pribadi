@@ -7,7 +7,6 @@ function App() {
 				<div class='container'>
 					<div class='menu'></div>
 					<div class='logo'></div>
-					div.portfolio
 				</div>
 			</nav>
 		</div>
