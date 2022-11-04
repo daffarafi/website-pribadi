@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-[#061223] text-slate-50;
+	}
+}
+
+@layer utilities {
+	.shape {
+		clip-path: polygon(
+			47% 0,
+			71% 4%,
+			89% 14%,
+			96% 74%,
+			82% 94%,
+			59% 100%,
+			16% 95%,
+			0 20%
+		);
+	}
+}
