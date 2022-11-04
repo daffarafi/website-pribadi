@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			keyframes: {
-				'spin-6': {
+				spin6: {
 					'0%': {
 						transform: 'rotate(6deg)',
 					},
@@ -12,7 +12,7 @@ module.exports = {
 						transform: 'rotate(366deg)',
 					},
 				},
-				'spin-12': {
+				spin12: {
 					'0%': {
 						transform: 'rotate(12deg)',
 					},
@@ -20,7 +20,7 @@ module.exports = {
 						transform: 'rotate(372deg)',
 					},
 				},
-				'reverse-spin-6': {
+				reversespin6: {
 					'0%': {
 						transform: 'rotate(-6deg)',
 					},
@@ -28,7 +28,7 @@ module.exports = {
 						transform: 'rotate(-366deg)',
 					},
 				},
-				'reverse-spin-12': {
+				reversespin12: {
 					'0%': {
 						transform: 'rotate(-12deg)',
 					},
@@ -36,9 +36,56 @@ module.exports = {
 						transform: 'rotate(-372deg)',
 					},
 				},
+				wiggle: {
+					'0% 100%': {
+						transform: 'rotate(-45deg)',
+					},
+					'50%': {
+						transform: 'rotate(135deg)',
+					},
+				},
+				clocking: {
+					'100%': {
+						transform: 'rotate(90deg)',
+					},
+				},
+				shrink: {
+					'0%, 100%': {
+						width: '100%',
+					},
+					'50%': {
+						width: '65%',
+					},
+				},
+				pointbounce: {
+					'0%': {
+						transform: 'translate(0, 0)',
+					},
+					'100%': {
+						transform: 'translate(-10px, 0)',
+					},
+				},
 			},
 		},
-		fontFamily: {},
+		fontFamily: {
+			Josefin_Sans: [
+				'Josefin Sans',
+				'Verdana',
+				'Geneva',
+				'Tahoma',
+				'sans-serif',
+			],
+		},
+		container: {
+			padding: {
+				DEFAULT: '1rem',
+				sm: '2rem',
+				lg: '4rem',
+				xl: '5rem',
+				'2xl': '6rem',
+			},
+			center: true,
+		},
 	},
 	plugins: [],
 };

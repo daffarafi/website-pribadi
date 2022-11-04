@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;600;700&display=swap');
+
 @layer base {
 	body {
-		@apply bg-[#061223] text-slate-50;
+		@apply bg-[#061223] text-slate-50 font-Josefin_Sans;
 	}
 }
 
