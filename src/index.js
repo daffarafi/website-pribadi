@@ -12,6 +12,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import About from './routes/About';
 import Services from './routes/Services';
+import Contact from './routes/Contact';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
 				<Route index={true} element={<Home />} />
 				<Route path='about' element={<About />} />
 				<Route path='services' element={<Services />} />
+				<Route path='contact' element={<Contact />} />
 			</Route>
 		</Route>
 	)

@@ -65,6 +65,30 @@ module.exports = {
 						transform: 'translate(-10px, 0)',
 					},
 				},
+				blink1: {
+					'0%': {
+						opacity: '0',
+					},
+					'50%': {
+						opacity: '1',
+					},
+				},
+				blink2: {
+					'25%': {
+						opacity: '0',
+					},
+					'75%': {
+						opacity: '1',
+					},
+				},
+				blink3: {
+					'50%': {
+						opacity: '0',
+					},
+					'75%': {
+						opacity: '1',
+					},
+				},
 			},
 		},
 		fontFamily: {

@@ -12,7 +12,7 @@ const Root = () => {
 				<div className='shape absolute w-[26.5] animate-[spin12_24s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 				<div className='shape absolute w-[28rem] animate-[reversespin6_24s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 			</div>
-			<nav className='fixed top-0 w-full '>
+			<nav className='fixed top-0 w-full z-20'>
 				<div className='container grid grid-cols-3 items-center pt-7'>
 					<Link className='relative w-fit text-xl font-semibold flex items-center select-none'>
 						<div className='hamburger flex flex-col w-9 h-5 justify-between justify-self-start'>
@@ -34,7 +34,7 @@ const Root = () => {
 				</div>
 			</nav>
 			<Outlet />
-			<div className='undernav fixed bottom-0 w-full'>
+			<div className='undernav fixed bottom-0 w-full z-20'>
 				<div className='container flex justify-between pb-7'>
 					<Link className='text-xl font-semibold w-fit h-fit flex items-center justify-self-end group'>
 						{' '}
