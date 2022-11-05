@@ -75,6 +75,13 @@ module.exports = {
 				'Tahoma',
 				'sans-serif',
 			],
+			Source_Sans_Pro: [
+				'Source Sans Pro',
+				'Verdana',
+				'Geneva',
+				'Tahoma',
+				'sans-serif',
+			],
 		},
 		container: {
 			padding: {

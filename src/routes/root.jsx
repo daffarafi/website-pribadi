@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Root = () => {
 	return (
 		<div className='w-full h-screen'>
-			<div className='bg fixed -z-50 w-full h-full flex justify-center items-center'>
+			<div className='bg fixed -z-50 w-full h-full flex justify-center items-center hidden'>
 				<div className='shape absolute w-60 animate-[spin6_18s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 				<div className='shape absolute w-[17.25rem] animate-[spin12_20s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 				<div className='shape absolute w-[18.75rem] animate-[reversespim6_22s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
@@ -21,7 +21,7 @@ const Root = () => {
 							<div className='h-0.5 bg-[#2EE0D0] animate-[shrink_1.5s_linear_infinite]' />
 						</div>
 					</Link>
-					<Link className='text-2xl w-fit h-fit justify-self-center select-none'>
+					<Link className='text-2xl w-fit h-fit justify-self-center select-none tracking-wide'>
 						Daffa Rafi
 					</Link>
 					<Link className='text-xl font-semibold w-fit h-fit flex items-center justify-self-end group'>

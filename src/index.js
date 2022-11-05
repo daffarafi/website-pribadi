@@ -10,12 +10,14 @@ import Root from './routes/Root';
 import Home from './routes/Home';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import About from './routes/About';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path='/' element={<Root />}>
 			<Route>
 				<Route index={true} element={<Home />} />
+				<Route path='about' element={<About />} />
 			</Route>
 		</Route>
 	)
