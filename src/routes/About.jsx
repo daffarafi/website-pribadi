@@ -2,12 +2,44 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
 	return (
-		<main className='container pt-28 font-Source_Sans_Pro'>
+		<main className='container pt-28 font-Source_Sans_Pro overflow-x-hidden'>
 			<section className='about'>
 				<h2 className='font-bold text-2xl mb-4'>About Me.</h2>
-				<figure className='shape w-80 mx-auto mb-4'>
-					<img src='/assets/images/profile.jpeg' alt='Profile' />
-				</figure>
+				<div className='porofile-img flex justify-center items-center'>
+					<figure className='shape w-80 mx-auto mb-4'>
+						<img src='/assets/images/profile.jpeg' alt='Profile' />
+					</figure>
+					<div className='bg absolute -z-10 flex justify-center items-center'>
+						<svg
+							width='421'
+							height='572'
+							viewBox='0 0 421 572'
+							fill='none'
+							xmlns='http://www.w3.org/2000/svg'
+							className='scale-90 -rotate-3 opacity-60'
+						>
+							<path
+								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
+								className='stroke-[#4FB4F5] opacity-80'
+								stroke-width='2'
+							/>
+						</svg>
+						<svg
+							width='421'
+							height='572'
+							viewBox='0 0 421 572'
+							fill='none'
+							xmlns='http://www.w3.org/2000/svg'
+							className='absolute'
+						>
+							<path
+								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
+								className='stroke-[#4FB4F5] opacity-20'
+								stroke-width='2'
+							/>
+						</svg>
+					</div>
+				</div>
 				<h5 className='text-4xl mb-4'>
 					I'm Daffa Rafi a Freelance Website Designer from Indonesia.
 				</h5>
@@ -24,7 +56,7 @@ const About = () => {
 					achieving, this is always making me happy.
 				</p>
 			</section>
-			<section className='services text-center min-h-screen flex flex-col justify-center items-center'>
+			<section className='services relative text-center min-h-screen flex flex-col justify-center items-center'>
 				<h1 className='uppercase text-5xl mb-4'>
 					What can i do for you?
 				</h1>
@@ -33,6 +65,64 @@ const About = () => {
 						Web Design
 					</span>
 				</Link>
+				<div className='bg absolute -z-10 flex justify-center items-center'>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='scale-110'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5]'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute scale-[1.35] rotate-6'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-60'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute scale-[1.55] rotate-12'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-40'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute scale-[1.75] rotate-6'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-25'
+							stroke-width='1.5'
+						/>
+					</svg>
+				</div>
 			</section>
 			<section className='portfolio flex flex-col'>
 				<h2 className='font-bold text-2xl mb-4'>My Portfolio.</h2>
@@ -62,6 +152,64 @@ const About = () => {
 							Contact
 						</span>
 					</Link>
+				</div>
+				<div className='bg absolute -z-10 flex justify-center items-center'>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='scale-90'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5]'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute rotate-6'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-60'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute scale-110 rotate-12'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-40'
+							stroke-width='1.5'
+						/>
+					</svg>
+					<svg
+						width='334'
+						height='528'
+						viewBox='0 0 447 528'
+						fill='none'
+						xmlns='http://www.w3.org/2000/svg'
+						className='absolute scale-125 rotate-6'
+					>
+						<path
+							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
+							className='stroke-[#4FB4F5] opacity-25'
+							stroke-width='1.5'
+						/>
+					</svg>
 				</div>
 			</section>
 		</main>

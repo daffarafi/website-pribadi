@@ -23,4 +23,7 @@
 			0 20%
 		);
 	}
+	.test {
+		filter: drop-shadow(4px 4px 0px #4fb4f5);
+	}
 }
