@@ -11,6 +11,7 @@ import Home from './routes/Home';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import About from './routes/About';
+import Services from './routes/Services';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
 			<Route>
 				<Route index={true} element={<Home />} />
 				<Route path='about' element={<About />} />
+				<Route path='services' element={<Services />} />
 			</Route>
 		</Route>
 	)
