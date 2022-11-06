@@ -21,7 +21,7 @@ const About = () => {
 							<path
 								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
 								className='stroke-[#4FB4F5] opacity-80'
-								stroke-width='2'
+								strokeWidth='2'
 							/>
 						</svg>
 						<svg
@@ -35,7 +35,7 @@ const About = () => {
 							<path
 								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
 								className='stroke-[#4FB4F5] opacity-20'
-								stroke-width='2'
+								strokeWidth='2'
 							/>
 						</svg>
 					</div>
@@ -60,7 +60,10 @@ const About = () => {
 				<h1 className='uppercase text-5xl mb-4 font-Josefin_Sans'>
 					What can i do for you?
 				</h1>
-				<Link className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '>
+				<Link
+					to={'/services'}
+					className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+				>
 					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 						Web Design
 					</span>
@@ -77,7 +80,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5]'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -91,7 +94,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-60'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -105,7 +108,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-40'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -119,7 +122,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-25'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 				</div>
@@ -130,7 +133,10 @@ const About = () => {
 					These are some of the projects that I've worked on to
 					completion with some of the technologies.
 				</h5>
-				<Link className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '>
+				<Link
+					to={'/portfolio'}
+					className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+				>
 					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 						Portfolio
 					</span>
@@ -142,13 +148,19 @@ const About = () => {
 					Get in touch with me!
 				</h1>
 				<div className='links flex gap-3'>
-					<Link className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '>
+					<Link
+						to={'/review'}
+						className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+					>
 						<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 							Review
 						</span>
 					</Link>
-					<Link className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '>
-						<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+					<Link
+						to={'/contact'}
+						className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+					>
+						<span className='block px-5 py-2  bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 							Contact
 						</span>
 					</Link>
@@ -165,7 +177,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5]'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -179,7 +191,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-60'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -193,7 +205,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-40'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 					<svg
@@ -207,7 +219,7 @@ const About = () => {
 						<path
 							d='M277.311 2L2 73.5136L44.0475 482.658L255.286 526L368.414 500.428L445 418.513L429.983 90.8503L396.946 34.9396L277.311 2Z'
 							className='stroke-[#4FB4F5] opacity-25'
-							stroke-width='1.5'
+							strokeWidth='1.5'
 						/>
 					</svg>
 				</div>

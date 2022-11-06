@@ -4,7 +4,10 @@ const Home = () => {
 	return (
 		<main>
 			<div className='home container min-h-screen flex flex-col items-center justify-center'>
-				<Link className='about h-20 my-8 text-center relative group '>
+				<Link
+					to={'about'}
+					className='about h-20 my-8 text-center relative group '
+				>
 					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
 						About
 					</h1>
@@ -28,7 +31,10 @@ const Home = () => {
 						</svg>
 					</div>
 				</Link>
-				<Link className='services h-20 my-8 text-center relative group'>
+				<Link
+					to={'services'}
+					className='services h-20 my-8 text-center relative group'
+				>
 					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
 						Services
 					</h1>
@@ -53,7 +59,10 @@ const Home = () => {
 						</svg>
 					</div>
 				</Link>
-				<Link className='connect h-20 my-8 text-center relative group'>
+				<Link
+					to={'contact'}
+					className='connect h-20 my-8 text-center relative group'
+				>
 					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
 						Connect
 					</h1>
