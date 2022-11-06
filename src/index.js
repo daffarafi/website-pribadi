@@ -15,11 +15,12 @@ import Services from './routes/Services';
 import Contact from './routes/Contact';
 import Review from './routes/Review';
 import Portfolio from './routes/Portfolio';
+import ErrorPage from './routes/ErrorPage';
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
-		<Route path='/' element={<Root />}>
-			<Route>
+		<Route path='/' element={<Root />} errorElement={<ErrorPage />}>
+			<Route errorElement={<ErrorPage />}>
 				<Route index={true} element={<Home />} />
 				<Route path='about' element={<About />} />
 				<Route path='services' element={<Services />} />
