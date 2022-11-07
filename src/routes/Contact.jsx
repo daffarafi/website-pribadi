@@ -9,7 +9,7 @@ const Contact = () => {
 		message: '',
 	});
 	const [loading, setLoading] = useState(false);
-	const [messageSent, setMessageSent] = useState(false);
+	// const [messageSent, setMessageSent] = useState(false);
 
 	const contactSubmitHandler = async (event) => {
 		event.preventDefault();
@@ -28,11 +28,11 @@ const Contact = () => {
 				message: '',
 			});
 			setLoading(false);
-			setMessageSent(true);
+			// setMessageSent(true);
 		} catch (err) {
 			console.log(err);
 			setLoading(false);
-			setMessageSent(false);
+			// setMessageSent(false);
 		}
 	};
 

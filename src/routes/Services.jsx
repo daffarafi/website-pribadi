@@ -549,7 +549,7 @@ const Services = () => {
 				</div>
 			</section>
 			<section className='web-design'>
-				<h2 className='font-bold text-2xl mb-4'>Web Design</h2>
+				{/* <h2 className='font-bold text-2xl mb-4'>Web Design</h2> */}
 			</section>
 			<section className='contact text-center min-h-screen flex flex-col justify-center items-center'>
 				<h5 className='text-4xl mb-2 '>Any Questions?</h5>

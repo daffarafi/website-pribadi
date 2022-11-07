@@ -47,15 +47,16 @@ const About = () => {
 					</div>
 				</div>
 				<h5 className='text-4xl mb-4'>
-					I'm Daffa Rafi a Freelance Website Designer from Indonesia.
+					I'm Daffa Rafi a Front-End Web Developer and Website
+					Designer from Indonesia.
 				</h5>
 				<p className='text-xl mb-4'>
-					Hi! My name Muhammad Daffa Rafi, 18 years old. I'm a Web
-					Designer, based in Jakarta, Indonesia.
+					Hi! My name Muhammad Daffa Rafi, 19 years old. I'm a Web
+					Developer and Designer, based in Jakarta, Indonesia.
 				</p>
 				<p className='text-xl mb-4'>
 					I love creating Interactive and Responsive Website with some
-					Animation using technology such as Javascript and Bootstrap.
+					Animation using Javascript Framework such as React.
 				</p>
 				<p className='text-xl mb-4'>
 					My number one priority is to help your project to grow and
@@ -71,7 +72,7 @@ const About = () => {
 					className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
 				>
 					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
-						Web Design
+						Front-end Developer
 					</span>
 				</Link>
 				<div className='bg absolute -z-10 flex justify-center items-center'>

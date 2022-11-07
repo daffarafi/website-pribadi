@@ -1,4 +1,4 @@
-[
+const portfolios = [
 	{
 		name: 'Personal Website',
 		image: 'https://i.ibb.co/dJkW5HB/daffarafi.png',
@@ -44,3 +44,5 @@
 		},
 	},
 ];
+
+export default portfolios;
