@@ -1,41 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import {
-	createBrowserRouter,
-	createRoutesFromElements,
-	RouterProvider,
-	Route,
-} from 'react-router-dom';
-import Root from './routes/Root';
-import Home from './routes/Home';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import About from './routes/About';
-import Services from './routes/Services';
-import Contact from './routes/Contact';
-import Review from './routes/Review';
-import Portfolio from './routes/Portfolio';
+    createBrowserRouter,
+    createRoutesFromElements,
+    RouterProvider,
+    Route,
+} from "react-router-dom";
+import Root from "./routes/Root";
+import Home from "./routes/Home";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import About from "./routes/About";
+import Services from "./routes/Services";
+import Contact from "./routes/Contact";
+import Review from "./routes/Review";
+import Portfolio from "./routes/Portfolio";
 
 const router = createBrowserRouter(
-	createRoutesFromElements(
-		<Route path='/' element={<Root />}>
-			<Route>
-				<Route index={true} element={<Home />} />
-				<Route path='about' element={<About />} />
-				<Route path='services' element={<Services />} />
-				<Route path='contact' element={<Contact />} />
-				<Route path='review' element={<Review />} />
-				<Route path='portfolio' element={<Portfolio />} />
-			</Route>
-		</Route>
-	)
+    createRoutesFromElements(
+        <Route path="/" element={<Root />}>
+            <Route>
+                <Route index={true} element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="services" element={<Services />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="review" element={<Review />} />
+                <Route path="portfolio" element={<Portfolio />} />
+            </Route>
+        </Route>
+    )
 );
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 );
 
 reportWebVitals();
