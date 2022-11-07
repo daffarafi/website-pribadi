@@ -90,6 +90,9 @@ module.exports = {
 					},
 				},
 			},
+			gridTemplateColumns: {
+				responsive: 'repeat(auto-fit, 10rem)',
+			},
 		},
 		fontFamily: {
 			Josefin_Sans: [
