@@ -116,7 +116,9 @@ const Services = () => {
 			</section>
 			<section className='contact text-center min-h-screen flex flex-col justify-center items-center'>
 				<h5 className='text-4xl mb-2'>Any Questions?</h5>
-				<h1 className='uppercase text-5xl mb-4'>Contact me now!</h1>
+				<h1 className='uppercase text-5xl mb-4uppercase text-5xl mb-4 font-Josefin_Sans'>
+					Contact me now!
+				</h1>
 				<div className='link flex gap-3'>
 					<Link
 						to={'/review'}

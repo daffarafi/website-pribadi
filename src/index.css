@@ -27,3 +27,17 @@
 		filter: drop-shadow(4px 4px 0px #4fb4f5);
 	}
 }
+.swiper-button-next,
+.swiper-button-prev {
+	color: #2ee0d0 !important;
+}
+
+.swiper-pagination-bullet {
+	width: 12px !important;
+	height: 12px !important;
+	background-color: #2ee0d0 !important;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #2ee0d0 !important;
+}
