@@ -92,6 +92,7 @@ module.exports = {
 			},
 			gridTemplateColumns: {
 				responsive: 'repeat(auto-fit, 10rem)',
+				responsivePortfolio: 'repeat(auto-fill, minmax(20rem, 25rem))',
 			},
 		},
 		fontFamily: {

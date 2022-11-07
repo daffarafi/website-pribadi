@@ -4,19 +4,29 @@ const Services = () => {
 	return (
 		<main className='container pt-28 font-Source_Sans_Pro overflow-x-hidden '>
 			<section className='front-end'>
-				<h2 className='font-bold text-2xl mb-4'>Front-End Developer</h2>
-				<img
-					src='/assets/images/frontend.svg'
-					alt='HTML - CSS - JAVASCRIPT'
-					className='w-4/5 mb-4'
-				/>
-				<h5 className='text-4xl mb-20'>
-					I'm ready to be Front-End Developer and built your website
-					using
-					<span className='text-orange-400'> HTML</span>,{' '}
-					<span className='text-blue-300'>CSS</span>, and
-					<span className='text-yellow-200'> JavaScript</span>.
-				</h5>
+				<div className='header lg:flex lg:flex-row-reverse lg:items-center mb-20'>
+					<h2 className='font-bold text-2xl mb-4 lg:hidden'>
+						Front-End Developer
+					</h2>
+					<img
+						src='/assets/images/frontend.svg'
+						alt='HTML - CSS - JAVASCRIPT'
+						className='w-4/5 mb-4 max-w-xs'
+					/>
+					<div className='text'>
+						<h2 className='font-bold text-2xl mb-4 hidden lg:block'>
+							Front-End Developer
+						</h2>
+						<h5 className='text-4xl mb-20'>
+							I'm ready to be Front-End Developer and built your
+							website using
+							<span className='text-orange-400'> HTML</span>,{' '}
+							<span className='text-blue-300'>CSS</span>, and
+							<span className='text-yellow-200'> JavaScript</span>
+							.
+						</h5>
+					</div>
+				</div>
 				<div className='relative text-xl font-light mb-24 border-2 border-[#2EE0D0] px-6 py-10 text-center rounded-xl'>
 					<div className='absolute h-[90%] w-14 bg-[#061223] -top-1 -left-1'></div>{' '}
 					<span className='absolute -left-2 -top-10 text-9xl '>
@@ -226,7 +236,7 @@ const Services = () => {
 					</div>
 					<div className='relative w-1/3 flex justify-center items-center group'>
 						<svg
-							className='absolute w-full opacity-0 group-hover:opacity-100 transition-all duration-300'
+							className='absolute w-full h-fit opacity-0 group-hover:opacity-100 transition-all duration-300'
 							width='184'
 							height='184'
 							viewBox='0 0 184 184'

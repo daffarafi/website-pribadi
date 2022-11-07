@@ -42,7 +42,7 @@ const Contact = () => {
 	};
 
 	return (
-		<main className='container pt-28 font-Josefin_Sans overflow-x-hidden'>
+		<main className='container max-w-screen-md md:px-16 pt-28 font-Josefin_Sans overflow-x-hidden'>
 			<h2 className='font-bold uppercase text-4xl mb-8 text-center font-Source_Sans_Pro'>
 				Get in touch
 			</h2>
@@ -55,32 +55,36 @@ const Contact = () => {
 				className='flex flex-col text-xl gap-8 mb-10'
 			>
 				<div className='name grid gap-8'>
-					<label className='flex flex-col'>
-						<span>
-							First Name<span className='text-[#ff4444]'>*</span>
-						</span>
-						<input
-							type='text'
-							name='firstName'
-							onChange={changeHandler}
-							value={message.firstName}
-							placeholder='Daffa'
-							className='bg-[#1c3646] opacity-60 p-4 rounded-lg'
-						/>
-					</label>
-					<label className='flex flex-col'>
-						<span>
-							Last Name<span className='text-[#ff4444]'>*</span>
-						</span>
-						<input
-							type='text'
-							name='lastName'
-							onChange={changeHandler}
-							value={message.lastName}
-							placeholder='Rafi'
-							className='bg-[#1c3646] opacity-60 p-4 rounded-lg'
-						/>
-					</label>
+					<div className='flex flex-col md:flex-row w-full justify-between gap-8'>
+						<label className='flex flex-col w-full'>
+							<span>
+								First Name
+								<span className='text-[#ff4444]'>*</span>
+							</span>
+							<input
+								type='text'
+								name='firstName'
+								onChange={changeHandler}
+								value={message.firstName}
+								placeholder='Daffa'
+								className='bg-[#1c3646] opacity-60 p-4 rounded-lg'
+							/>
+						</label>
+						<label className='flex flex-col w-full'>
+							<span>
+								Last Name
+								<span className='text-[#ff4444]'>*</span>
+							</span>
+							<input
+								type='text'
+								name='lastName'
+								onChange={changeHandler}
+								value={message.lastName}
+								placeholder='Rafi'
+								className='bg-[#1c3646] opacity-60 p-4 rounded-lg'
+							/>
+						</label>
+					</div>
 				</div>
 				<label className='flex flex-col'>
 					<span>

@@ -8,70 +8,83 @@ import 'swiper/css/scrollbar';
 
 const About = () => {
 	return (
-		<main className='container pt-28 font-Source_Sans_Pro overflow-x-hidden'>
-			<section className='about'>
-				<h2 className='font-bold text-2xl mb-4'>About Me.</h2>
-				<div className='porofile-img flex justify-center items-center'>
-					<figure className='shape w-80 mx-auto mb-4'>
-						<img src='/assets/images/profile.jpeg' alt='Profile' />
-					</figure>
-					<div className='bg absolute -z-10 flex justify-center items-center'>
-						<svg
-							width='421'
-							height='572'
-							viewBox='0 0 421 572'
-							fill='none'
-							xmlns='http://www.w3.org/2000/svg'
-							className='scale-90 -rotate-3 opacity-60'
-						>
-							<path
-								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
-								className='stroke-[#4FB4F5] opacity-80'
-								strokeWidth='2'
+		<main className='container pt-10 lg:pt-0 font-Source_Sans_Pro overflow-x-hidden'>
+			<section className='about min-h-screen flex flex-col justify-center'>
+				<h2 className='font-bold text-2xl mb-4 lg:hidden'>About Me.</h2>
+				<div className='content flex flex-col lg:flex-row-reverse  md:gap-8'>
+					<div className='porofile-img flex justify-center items-center'>
+						<figure className='shape w-80 mx-auto mb-4 xl:w-96'>
+							<img
+								src='/assets/images/profile.jpeg'
+								alt='Profile'
 							/>
-						</svg>
-						<svg
-							width='421'
-							height='572'
-							viewBox='0 0 421 572'
-							fill='none'
-							xmlns='http://www.w3.org/2000/svg'
-							className='absolute'
-						>
-							<path
-								d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
-								className='stroke-[#4FB4F5] opacity-20'
-								strokeWidth='2'
-							/>
-						</svg>
+						</figure>
+						<div className='bg absolute -z-10 xl:scale-110 flex justify-center items-center'>
+							<svg
+								width='421'
+								height='572'
+								viewBox='0 0 421 572'
+								fill='none'
+								xmlns='http://www.w3.org/2000/svg'
+								className='scale-90 -rotate-3 opacity-60'
+							>
+								<path
+									d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
+									className='stroke-[#4FB4F5] opacity-80'
+									strokeWidth='2'
+								/>
+							</svg>
+							<svg
+								width='421'
+								height='572'
+								viewBox='0 0 421 572'
+								fill='none'
+								xmlns='http://www.w3.org/2000/svg'
+								className='absolute'
+							>
+								<path
+									d='M261.153 2L2 79.5186L41.5797 523.019L240.42 570L346.908 542.281L419 453.487L404.864 98.311L373.766 37.7055L261.153 2Z'
+									className='stroke-[#4FB4F5] opacity-20'
+									strokeWidth='2'
+								/>
+							</svg>
+						</div>
+					</div>
+					<div className='text'>
+						<h2 className='font-bold text-2xl mb-4 hidden lg:block'>
+							About Me.
+						</h2>
+
+						<h5 className='text-4xl mb-4 font-semibold xl:text-5xl'>
+							I'm Daffa Rafi, a Front-End Web Developer and
+							Website Designer from Indonesia.
+						</h5>
+						<p className='text-xl mb-4 xl:text-2xl'>
+							Hi! My name is Muhammad Daffa'I Rafi Prasetyo, 19
+							years old. I'm a Web Developer and Designer, based
+							in Jakarta, Indonesia.
+						</p>
+						<p className='text-xl mb-4 xl:text-2xl'>
+							I love creating Interactive and Responsive Website
+							with some Animation using Javascript Framework such
+							as React.
+						</p>
+						<p className='text-xl mb-4 xl:text-2xl'>
+							My number one priority is to help your project to
+							grow and achieving, this is always making me happy.
+						</p>
 					</div>
 				</div>
-				<h5 className='text-4xl mb-4'>
-					I'm Daffa Rafi a Front-End Web Developer and Website
-					Designer from Indonesia.
-				</h5>
-				<p className='text-xl mb-4'>
-					Hi! My name Muhammad Daffa Rafi, 19 years old. I'm a Web
-					Developer and Designer, based in Jakarta, Indonesia.
-				</p>
-				<p className='text-xl mb-4'>
-					I love creating Interactive and Responsive Website with some
-					Animation using Javascript Framework such as React.
-				</p>
-				<p className='text-xl mb-4'>
-					My number one priority is to help your project to grow and
-					achieving, this is always making me happy.
-				</p>
 			</section>
 			<section className='services relative text-center min-h-screen flex flex-col justify-center items-center'>
-				<h1 className='uppercase text-5xl mb-4 font-Josefin_Sans'>
-					What can i do for you?
+				<h1 className='uppercase text-[10vw] sm:text-6xl md:text-7xl xl:text-8xl mb-4 font-Josefin_Sans sm:whitespace-nowrap'>
+					What can i do <br className='hidden sm:block' /> for you?
 				</h1>
 				<Link
 					to={'/services'}
-					className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+					className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden  group '
 				>
-					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+					<span className='block px-5 py-2 md:px-6 md:py-2.5 md:text-lg lg:px-7 lg:py-3 lg:text-xl bg-[#061223] text-[#2EE0D0] font-Josefin_Sans group-hover:px-6 md:group-hover:px-8 lg:group-hover:px-9 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 						Front-end Developer
 					</span>
 				</Link>
@@ -134,13 +147,23 @@ const About = () => {
 					</svg>
 				</div>
 			</section>
-			<section className='portfolio flex flex-col'>
-				<h2 className='font-bold text-2xl mb-4'>My Portfolio.</h2>
-				<h5 className='text-4xl mb-8'>
-					These are some of the projects that I've worked on to
-					completion with some of the technologies.
-				</h5>
-				<div className='w-full mb-8'>
+			<section className='portfolio flex flex-col lg:flex-row'>
+				<div className='text'>
+					<h2 className='font-bold text-2xl mb-4'>My Portfolio.</h2>
+					<h5 className='text-4xl mb-8'>
+						These are some of the projects that I've worked on to
+						completion with some of the technologies.
+					</h5>
+					<Link
+						to={'/portfolio'}
+						className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden hidden lg:block group '
+					>
+						<span className='block px-5 py-2 md:px-6 md:py-2.5 md:text-lg lg:px-7 lg:py-3 lg:text-xl bg-[#061223] text-[#2EE0D0]  font-Josefin_Sans group-hover:px-6 md:group-hover:px-8 lg:group-hover:px-9 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+							Portfolio
+						</span>
+					</Link>
+				</div>
+				<div className='w-full mb-8 lg:w-2/5'>
 					<Swiper
 						modules={[Navigation, Pagination]}
 						spaceBetween={0}
@@ -175,24 +198,24 @@ const About = () => {
 				</div>
 				<Link
 					to={'/portfolio'}
-					className='w-fit border-[#2EE0D0] mx-auto border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
+					className='w-fit border-[#2EE0D0] mx-auto border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden lg:hidden group '
 				>
-					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+					<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0]  font-Josefin_Sans group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 						Portfolio
 					</span>
 				</Link>
 			</section>
 			<section className='contact text-center min-h-screen flex flex-col justify-center items-center'>
 				<h5 className='text-2xl uppercase mb-2'>Don't be shy!</h5>
-				<h1 className='uppercase text-5xl mb-4 font-Josefin_Sans'>
-					Get in touch with me!
+				<h1 className='uppercase text-[10vw] sm:text-6xl md:text-7xl xl:text-8xl mb-4 font-Josefin_Sans sm:whitespace-nowrap'>
+					Get in touch <br /> with me!
 				</h1>
 				<div className='links flex gap-3'>
 					<Link
 						to={'/review'}
 						className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
 					>
-						<span className='block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+						<span className='block px-5 py-2 md:px-6 md:py-2.5 md:text-lg lg:px-7 lg:py-3 lg:text-xl bg-[#061223] text-[#2EE0D0]  font-Josefin_Sans group-hover:px-6 md:group-hover:px-8 lg:group-hover:px-9 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 							Review
 						</span>
 					</Link>
@@ -200,7 +223,7 @@ const About = () => {
 						to={'/contact'}
 						className='w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group '
 					>
-						<span className='block px-5 py-2  bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
+						<span className='block px-5 py-2 md:px-6 md:py-2.5 md:text-lg lg:px-7 lg:py-3 lg:text-xl bg-[#061223] text-[#2EE0D0]  font-Josefin_Sans group-hover:px-6 md:group-hover:px-8 lg:group-hover:px-9 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300'>
 							Contact
 						</span>
 					</Link>

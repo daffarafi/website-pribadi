@@ -7,12 +7,13 @@ const Portfolio = () => {
 			<h5 className='text-4xl mb-8 uppercase font-Josefin_Sans'>
 				Latest works
 			</h5>
-			<div className='items grid grid-cols-1 w-full gap-8'>
+			<div className='items grid grid-cols-responsivePortfolio w-full justify-center gap-8'>
 				{portfolios.map((portfolio) => {
 					return (
-						<div
+						<a
+							href={portfolio.info.web}
 							key={portfolio.image}
-							className='item rounded-tr-3xl rounded-bl-3xl border-2 border-[#2EE0D0] p-4 bg-[#1c3646] hover:scale-95 hover:rounded-3xl transition-all duration-300 group '
+							className='w-full item rounded-tr-3xl rounded-bl-3xl border-2 border-[#2EE0D0] p-4 bg-[#1c3646] hover:scale-95 hover:rounded-3xl transition-all duration-300 group '
 						>
 							<figure className='w-full '>
 								<div
@@ -31,7 +32,7 @@ const Portfolio = () => {
 									{portfolio.name}
 								</p>
 							</figure>
-						</div>
+						</a>
 					);
 				})}
 			</div>

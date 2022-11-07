@@ -26,7 +26,7 @@ const Root = () => {
 
 	return (
 		<div className='w-full h-screen '>
-			<div className='bg fixed -z-50 w-full h-full flex justify-center items-center '>
+			<div className='bg fixed -z-50 w-full h-full flex justify-center items-center lg:scale-125'>
 				<div className='shape absolute w-60 animate-[spin6_18s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 				<div className='shape absolute w-[17.25rem] animate-[spin12_20s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />
 				<div className='shape absolute w-[18.75rem] animate-[reversespim6_22s_linear_infinite] aspect-square bg-gradient-to-b from-[#2d49ff] to-[#0DCCFF] opacity-20' />

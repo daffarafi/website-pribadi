@@ -6,12 +6,12 @@ const Home = () => {
 			<div className='home container min-h-screen flex flex-col items-center justify-center'>
 				<Link
 					to={'about'}
-					className='about h-20 my-8 text-center relative group '
+					className='about h-20 my-8 md:my-10 text-center relative group lg:-left-64 lg:-top-7'
 				>
-					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
+					<h1 className='text-6xl md:text-7xl lg:text-8xl font-extralight group-hover:text-7xl md:group-hover:text-[5.5rem] lg:group-hover:text-[6.8rem]  transition-all duration-300 select-none'>
 						About
 					</h1>
-					<h3 className='text-md font-bold uppercase select-none'>
+					<h3 className='text-md lg:text-lg font-bold uppercase select-none'>
 						Anything about me <span className='text-2xl'>.</span>
 					</h3>
 					<div className='absolute -right-9 top-2 w-8 group-hover:-right-16 group-hover:w-12 group-hover:animate-spin transition-all duration-300'>
@@ -33,12 +33,12 @@ const Home = () => {
 				</Link>
 				<Link
 					to={'services'}
-					className='services h-20 my-8 text-center relative group'
+					className='services h-20 my-8 md:my-10 text-center relative group lg:-right-64 '
 				>
-					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
+					<h1 className='text-6xl md:text-7xl lg:text-8xl font-extralight group-hover:text-7xl md:group-hover:text-[5.5rem] lg:group-hover:text-[6.8rem] transition-all duration-300 select-none'>
 						Services
 					</h1>
-					<h3 className='text-md font-bold uppercase select-none'>
+					<h3 className='text-md lg:text-lg font-bold uppercase select-none'>
 						What i can do for you{' '}
 						<span className='text-2xl'>.</span>
 					</h3>
@@ -61,12 +61,12 @@ const Home = () => {
 				</Link>
 				<Link
 					to={'contact'}
-					className='connect h-20 my-8 text-center relative group'
+					className='connect h-20 my-8 md:my-10 text-center relative group lg:-left-24 lg:-bottom-7'
 				>
-					<h1 className='text-6xl font-extralight group-hover:text-7xl transition-all duration-300 select-none'>
+					<h1 className='text-6xl md:text-7xl lg:text-8xl font-extralight group-hover:text-7xl md:group-hover:text-[5.5rem] lg:group-hover:text-[6.8rem] transition-all duration-300 select-none'>
 						Connect
 					</h1>
-					<h3 className='text-md font-bold uppercase select-none'>
+					<h3 className='text-md lg:text-lg font-bold uppercase select-none'>
 						Connect with me <span className='text-2xl'>.</span>
 					</h3>
 					<div className='absolute -right-11 top-2 w-8 group-hover:-right-16 group-hover:w-12 group-hover:animate-[wiggle_1s_ease-in-out_infinite] transition-all duration-300'>
