@@ -7,7 +7,7 @@ const portfolios = [
 			date: '07/11/2022',
 			client: 'Me',
 			tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
-			web: 'www.daffarafi.github.io',
+			web: 'https://daffarafi.netlify.app',
 		},
 	},
 	{
