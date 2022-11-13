@@ -8,18 +8,18 @@ import 'swiper/css/scrollbar';
 
 const About = () => {
 	return (
-		<main className='container pt-10 lg:pt-0 font-Source_Sans_Pro overflow-x-hidden'>
-			<section className='about min-h-screen flex flex-col justify-center'>
+		<main className='container relative overflow-hidden  pt-28 lg:pt-0 font-Source_Sans_Pro overflow-x-hidden'>
+			<section className='about min-h-screen flex flex-col justify-center '>
 				<h2 className='font-bold text-2xl mb-4 lg:hidden'>About Me.</h2>
 				<div className='content flex flex-col lg:flex-row-reverse  md:gap-8'>
-					<div className='porofile-img flex justify-center items-center'>
+					<div className='relative portfolio-img flex justify-center items-center '>
 						<figure className='shape w-80 mx-auto mb-4 xl:w-96'>
 							<img
 								src='/assets/images/profile.jpeg'
 								alt='Profile'
 							/>
 						</figure>
-						<div className='bg absolute -z-10 xl:scale-110 flex justify-center items-center'>
+						<div className='bg absolute -z-10 xl:scale-110 flex justify-center items-center '>
 							<svg
 								width='421'
 								height='572'
@@ -228,7 +228,7 @@ const About = () => {
 						</span>
 					</Link>
 				</div>
-				<div className='bg absolute -z-10 flex justify-center items-center'>
+				<div className='bg absolute -z-10 flex justify-center items-center overflow-hidden'>
 					<svg
 						width='334'
 						height='528'
