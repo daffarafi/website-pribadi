@@ -6,7 +6,7 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom';
-import Root from './routes/Root';
+import Root from './routes/root';
 import Home from './routes/Home';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
