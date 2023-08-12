@@ -575,14 +575,6 @@ const Services = () => {
                 </h1>
                 <div className="link flex gap-3 ">
                     <Link
-                        to={"/review"}
-                        className="w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group "
-                    >
-                        <span className="block px-5 py-2 bg-[#061223] text-[#2EE0D0] group-hover:px-6 group-hover:bg-transparent group-hover:text-slate-50 transition-all duration-300">
-                            Review
-                        </span>
-                    </Link>
-                    <Link
                         to={"/contact"}
                         className="w-fit border-[#2EE0D0] border-2 rounded-md bg-gradient-to-r from-[#2EE0D0] to-[#2477EC] overflow-hidden group "
                     >
