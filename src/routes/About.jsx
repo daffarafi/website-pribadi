@@ -60,7 +60,7 @@ const About = () => {
 							Website Designer from Indonesia.
 						</h5>
 						<p className='text-xl mb-4 xl:text-2xl'>
-							Hi! My name is Muhammad Daffa'I Rafi Prasetyo, 19
+							Hi! My name is Muhammad Daffa'I Rafi Prasetyo, 20
 							years old. I'm a Web Developer and Designer, based
 							in Jakarta, Indonesia.
 						</p>
