@@ -1,12 +1,25 @@
 const portfolios = [
   {
+    name: 'DocuForge',
+    image: 'https://i.ibb.co.com/KxY38kDY/landing-1.png',
+    desc: '-',
+    info: {
+      date: '28/02/2025',
+      client: 'Docusign Hackathon',
+      tools:
+        'HTML, CSS, Javascript, React, Next, Tailwind, ShadCN, DocuSign, Python, Django, Django REST',
+      web: 'https://docuforge-fe-production.up.railway.app/',
+    },
+  },
+  {
     name: 'Compfest 16',
     image: 'https://i.ibb.co.com/b58PZf5/COMPFEST-16.png',
     desc: '-',
     info: {
       date: '01/01/2024',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools:
+        'HTML, CSS, Javascript, React, Next, Tailwind, ShadCN, ExpressJS, NestJS',
       web: 'https://compfest.id/',
     },
   },
@@ -17,7 +30,8 @@ const portfolios = [
     info: {
       date: '01/11/2023',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools:
+        'HTML, CSS, Javascript, React, Next, Tailwind, Python, Django, Django REST',
       web: 'https://betis.cs.ui.ac.id/',
     },
   },
@@ -28,7 +42,7 @@ const portfolios = [
     info: {
       date: '23/04/2024 ',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'HTML, CSS, Javascript, React, Next, Tailwind, Python, Django',
       web: 'https://basdat-tk-e-6-pacilflix.vercel.app/',
     },
   },
@@ -39,7 +53,8 @@ const portfolios = [
     info: {
       date: '28/03/2024',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools:
+        'Javascript, React Native, ExpressJS, Flask, Pandas, PyTorch, Numpy',
       web: 'https://goto.djaeger.dev/download-batin',
     },
   },
@@ -50,7 +65,7 @@ const portfolios = [
     info: {
       date: '27/09/2023',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'Python, Django, Tailwind, Flutter',
       web: 'https://readme.up.railway.app/',
     },
   },
@@ -61,7 +76,8 @@ const portfolios = [
     info: {
       date: '26/07/2023',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools:
+        'HTML, CSS, Javascript, React, Next, Tailwind, ExpressJS, Nest, Flutter',
       web: 'https://play.google.com/store/apps/details?id=id.ac.ui.cs.tbcheck&pcampaignid=web_share',
     },
   },
@@ -72,7 +88,7 @@ const portfolios = [
     info: {
       date: '01/02/2023',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'HTML, CSS, Javascript, React, Next, Tailwind, ExpressJS, NestJS',
       web: 'https://compfest.id/',
     },
   },
@@ -94,7 +110,7 @@ const portfolios = [
     info: {
       date: '16/02/2023',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'HTML, CSS, Javascript, React, Next, Tailwind',
       web: 'https://tech-fess.netlify.app/',
     },
   },
@@ -105,7 +121,7 @@ const portfolios = [
     info: {
       date: '10/12/2022',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'HTML, CSS, Javascript, React, MaterialUI, ExpressJS, Nest',
       web: 'https://pemira.cs.ui.ac.id/',
     },
   },
@@ -116,7 +132,7 @@ const portfolios = [
     info: {
       date: '01/11/2022',
       client: '-',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
+      tools: 'HTML, CSS, Javascript, Sass',
       web: 'https://gorestoapp.netlify.app/',
     },
   },
@@ -127,8 +143,8 @@ const portfolios = [
     info: {
       date: '07/11/2022',
       client: 'Me',
-      tools: 'HTML, CSS, Javascript, React, Tailwind, SwiperJS',
-      web: 'https://daffarafi.netlify.app',
+      tools: 'HTML, CSS, Javascript, React, Tailwind',
+      web: 'https://daffarafi.com/',
     },
   },
   {
