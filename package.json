@@ -17,6 +17,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
   "devDependencies": {
     "@types/node": "24.2.0",
     "@types/react": "19.1.9",
